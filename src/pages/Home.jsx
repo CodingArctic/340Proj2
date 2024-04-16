@@ -58,12 +58,6 @@ const Home = () => {
         </div>
         <hr />
         <EmploymentSection />
-        <div id='peopleSection'>
-          <PeoplePage />
-        </div>
-        <div id='academicsSection'>
-          <Academics />
-        </div>
       </div>
     </>
   );
