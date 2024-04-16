@@ -1,0 +1,19 @@
+div>h1.degreeTitle {
+    text-align: center;
+}
+
+div>a {
+    font-size: 16px;
+}
+
+.degreeTitle {
+    font-size: 3.5em;
+}
+
+ul>li {
+    text-align: left;
+}
+
+div.content {
+    text-align: left;
+}

@@ -1,0 +1,47 @@
+/* semantic ui messes up with css - so adding this now */
+body {
+  display: block !important;
+}
+
+.App {
+  text-align: center;
+  padding: 0 3vw 3vw;
+}
+
+.sticky {
+  text-align: center;
+  position: sticky;
+  top: 0px;
+  margin: 0px;
+  background-color: #1b1c1d;
+  color: white;
+  padding: 0px;
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  z-index: 999;
+}
+
+.sticky>h1 {
+  margin: 0px;
+}
+
+.About {
+  margin-top: 2vw;
+}
+
+.About>h1 {
+  margin: 0px;
+}
+
+.aboutQuote {
+  margin: 2em;
+  padding: 1em 2em;
+  border: 3px solid #F76902;
+  border-radius: 15px;
+}
+
+.NoPage {
+  text-align: center;
+  padding: 5vw 3vw 3vw;
+}

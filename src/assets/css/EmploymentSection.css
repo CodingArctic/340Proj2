@@ -1,0 +1,36 @@
+.statCardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.employmentSection {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.horizontalList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.horizontalListItem {
+    font-size: 1.1em;
+    border: 2px solid #F76902;
+    border-radius: 2em;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+hr {
+    width: 95%;
+}
+
+.employmentDescription {
+    margin-bottom: 1.7em;
+}
