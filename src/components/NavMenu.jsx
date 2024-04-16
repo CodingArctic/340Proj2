@@ -12,19 +12,19 @@ const NavMenu = ({ activeItem }) => {
     <Segment inverted>
       <Menu inverted secondary>
         <MenuItem
-          href='/340Proj2/'
+          href='/'
           name='home'
           active={active === 'home'}
           onClick={handleItemClick}
         />
         <MenuItem
-          href='/340Proj2/people'
+          href='/people'
           name='people'
           active={active === 'people'}
           onClick={handleItemClick}
         />
         <MenuItem
-          href='/340Proj2/academics'
+          href='/academics'
           name='academics'
           active={active === 'academics'}
           onClick={handleItemClick}

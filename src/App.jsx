@@ -9,9 +9,9 @@ export default function App() {
         <BrowserRouter>
             <Routes>
                 {/* set up page routes so we can switch pages w/ links */}
-                <Route path="/340Proj2/" exact element={<Home />} />
-                <Route path="/340Proj2/people" element={<PeoplePage />} />
-                <Route path="/340Proj2/academics" element={<Academics />} />
+                <Route path="/" exact element={<Home />} />
+                <Route path="/people" element={<PeoplePage />} />
+                <Route path="/academics" element={<Academics />} />
                 <Route path="*" element={<NoPage/>} />
             </Routes>
         </BrowserRouter>
