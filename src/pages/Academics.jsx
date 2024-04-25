@@ -13,10 +13,6 @@ const Academics = () => {
 
     return (
         <>
-            <div className='sticky'>
-                <h1>Welcome to the iSchool!</h1>
-                <NavMenu activeItem="academics" />
-            </div>
             <div className='content'>
                 <DegreesTabs />
                 <MinorsList />

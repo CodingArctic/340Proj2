@@ -7,10 +7,6 @@ const Degrees = () => {
 
     return (
         <>
-            <div className='sticky'>
-                <h1>Welcome to the iSchool!</h1>
-                <NavMenu activeItem="people" />
-            </div>
             <div className='content'>
                 <PeopleTabs />
             </div>

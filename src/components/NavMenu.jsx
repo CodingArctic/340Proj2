@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { Link, Navigate } from 'react-router-dom'
 import { MenuItem, Menu, Segment } from 'semantic-ui-react'
 
+import ritTiger from '../assets/img/rittiger.png';
+
 // pass in activeItem so it can be highlighted when page loads
 const NavMenu = ({ activeItem }) => {
   const [active, setActive] = useState(activeItem);
@@ -9,8 +11,11 @@ const NavMenu = ({ activeItem }) => {
   const handleItemClick = (e, { name }) => setActive(name);
 
   return (
-    <Segment inverted>
+    <Segment inverted style={{margin: 0, padding: 0}}>
       <Menu inverted secondary>
+        <MenuItem>
+          <a href='/'><img src={ritTiger} alt='RIT Tiger Logo' width="52px"/></a>
+        </MenuItem>
         <MenuItem
           href='/'
           name='home'

@@ -32,21 +32,12 @@ const Home = () => {
   // returns loading page
   if (!loaded) return (
     <>
-      <div className='sticky'>
-        <h1>Welcome to the iSchool!</h1>
-        <div>Loading...</div>
-      </div>
+        <h1>Loading...</h1>
     </>
   );
 
   return (
     <>
-      <div className='sticky'>
-        <h1>Welcome to the iSchool!</h1>
-        <NavMenu activeItem="home"/>
-      </div>
-      
-
       <div className='App'>
         <div className='About'>
           <h1>{aboutObj.title}</h1>
