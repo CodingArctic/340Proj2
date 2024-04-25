@@ -8,10 +8,6 @@ import NavMenu from "./components/NavMenu";
 export default function App() {
     return (
         <BrowserRouter>
-            <div className='sticky'>
-                <h1>Welcome to the iSchool!</h1>
-                <NavMenu activeItem="people" />
-            </div>
             <Routes>
                 {/* set up page routes so we can switch pages w/ links */}
                 <Route path="/" exact element={<Home />} />

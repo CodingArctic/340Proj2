@@ -11,31 +11,37 @@ const NavMenu = ({ activeItem }) => {
   const handleItemClick = (e, { name }) => setActive(name);
 
   return (
-    <Segment inverted style={{margin: 0, padding: 0}}>
-      <Menu inverted secondary>
-        <MenuItem>
-          <a href='/'><img src={ritTiger} alt='RIT Tiger Logo' width="52px"/></a>
-        </MenuItem>
-        <MenuItem
-          href='/'
-          name='home'
-          active={active === 'home'}
-          onClick={handleItemClick}
-        />
-        <MenuItem
-          href='/people'
-          name='people'
-          active={active === 'people'}
-          onClick={handleItemClick}
-        />
-        <MenuItem
-          href='/academics'
-          name='academics'
-          active={active === 'academics'}
-          onClick={handleItemClick}
-        />
-      </Menu>
-    </Segment>
+    <div className='sticky'>
+      <h1>Welcome to the iSchool!</h1>
+      <Segment inverted style={{ margin: 0, padding: 0 }}>
+        <Menu inverted secondary>
+          <MenuItem
+            href='/'
+            name='home'
+            onClick={handleItemClick}>
+            <a href='/'><img src={ritTiger} alt='RIT Tiger Logo' width="52px" /></a>
+          </MenuItem>
+          <MenuItem
+            href='/'
+            name='home'
+            active={active === 'home'}
+            onClick={handleItemClick}
+          />
+          <MenuItem
+            href='/people'
+            name='people'
+            active={active === 'people'}
+            onClick={handleItemClick}
+          />
+          <MenuItem
+            href='/academics'
+            name='academics'
+            active={active === 'academics'}
+            onClick={handleItemClick}
+          />
+        </Menu>
+      </Segment>
+    </ div>
   );
 }
 

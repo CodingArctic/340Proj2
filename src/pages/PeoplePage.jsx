@@ -7,6 +7,7 @@ const Degrees = () => {
 
     return (
         <>
+            <NavMenu activeItem='people' />
             <div className='content'>
                 <PeopleTabs />
             </div>

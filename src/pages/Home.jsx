@@ -38,6 +38,7 @@ const Home = () => {
 
   return (
     <>
+    <NavMenu activeItem='home' />
       <div className='App'>
         <div className='About'>
           <h1>{aboutObj.title}</h1>

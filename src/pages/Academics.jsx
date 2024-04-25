@@ -13,6 +13,7 @@ const Academics = () => {
 
     return (
         <>
+            <NavMenu activeItem='academics' />
             <div className='content'>
                 <DegreesTabs />
                 <MinorsList />
